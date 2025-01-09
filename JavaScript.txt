@@ -1,0 +1,130 @@
+JavaScript
+-it is object base and object oriented programming language use to convert into static to dynamic page
+-Data types:
+--its value use in programming language to types are permeative and non permeative
+---permeative:
+----num, string, Boolean, undefined, null
+---non permeative 
+----class, object, array, function, map ,sets
+-the same non permeative is permeative in java  
+ scope
+ Global -scope
+ local scope / script scope
+ block scope
+<--->day2:
+-Operation:
+-->
+ 
+-1) arithmetic - operators: +,-,*,/,%,++,--,
+ // increment 
+ post increment(after):
+----example: first value is assigned and then increment will happens
+ pre increment(before):
+----example: first value add then value will be assigned
+
+2) assigned operator: +=,-=,*=,/=,%=
+-->var c =10;
+console.log(c)//10
+c=c+10-->c+=10
+
+3)Logical operator: 
+AND(&&),
+OR(||),
+NOT(|)
+
+4)Relational operator :
+<,<=,>,>=,==,===,|=
+eg:
+consol.log(5==5)// true
+consol.log(5=="5")// true// it only check only value not data tpyes
+consol.log(5===5)// true
+consol.log(5==="5")// false // it will check value and data types
+
+5) termary operator: 
+-->it will accet three operands
+--syntax:
+(condition) ? true-statement: false-statement
+
+--conditional Statements--
+
+--------------------------
+i)simple-if
+if(5<=10)
+{
+console.log("kello ")
+}
+
+
+ii)if-else:
+if(100<=)
+{
+console.log("hello")
+}else{
+console.log("bye")
+}
+
+
+iii) else-is-else:
+
+let a=20;
+let b=30;
+let c=40;
+
+if(a>=b && a>=c)
+{
+console.log("a is greatest")
+}else{
+console.log("b is greatest")
+}else{
+console.log("c is greatest")
+}
+
+iv)nested-if:
+ 
+let user = "admin"
+let password = 12345
+  
+if (user == "admin"){
+ console.log("user valid")
+ if(password === 12345){
+  console.log("password valid")
+  console.log("Login- successful")
+  }else{
+  console.log("password invalid")
+  }
+}else{
+ console.log("Login- unsuccessful")
+ }
+
+v) Switch:
+let n = 1
+ 
+switch(n)
+{
+  case 1;
+  {
+    console.log("print 1")
+  }
+  break;
+  case 2;{
+    console.log("print 2")
+  }
+  break;
+  default{
+    console.log("invalid")
+  } 
+ assignment day2:
+q) if it is Monday and Tuesday print football, Wednesday and Thursday print cricket, Friday  print volleyball, Sunday print Holidays
+  
+      
+
+
+
+
+
+
+
+
+
+
+
